@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop.nav">
+        <div class ="logo">Ananya Agarwal</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+    
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Ananya Agarwal</div>
+        <div class="hamburger-menu"> <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>  
+        <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            
+            <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>  
+        </div>
+     </div> 
+        
+    </nav>
+    <section id="profile">
+       <div class="section__pic-container">
+        <img src="/assets/WhatsApp Image 2024-09-07 at 8.36.48 PM.jpeg" alt="ananya agarwal profile pic">
+       </div>
+       <div class="section__text">
+        <p class="section__ext__p1">Hello, I'm</p>
+        <h1 class="title">Ananya Agarwal</h1>
+        <p class="section__ext__p2">Frontend Developer</p>
+        <div class="btn-container">
+        <button
+        class="btn btn-color-2" 
+        onclick="window.open('/assets/resume final ananyaag.pdf')"> Download CV </button>
+        <button
+        class="btn btn-color-1" 
+        onclick="location.href=('./#contact')"> ContactInfo </button>
+        </div>
+        <div id="socials-container">
+            <img src="/assets/github.png" alt="My github profile"
+            class="icon" onclick="location.href='https://github.com/ananya-110'"/>
+            <img src="/assets/linkedin.png" alt="My LinkedIn profile"
+            class="icon" onclick="location.href='https://www.linkedin.com/in/ananya-agarwal-543a76211'">
+        </div> 
+       </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to know more </p>
+        <h1 class="title"> About me </h1>
+       <div class="section-container">
+        <div class="section__pic-container"></div>
+        <div class="about-details-container">
+            <div class="about-conatiners">
+                <div class="details-container">
+                    <img src="/assets/experience.png" alt="education icon" class="icon"/>
+                            <h3>Certificates</h3>
+                             <p>Introduction to python and machine learning -
+                                Arizona State University <br>
+                             Introduction to python -
+                                Arizona State University</p>   </div>
+                        <div class="details-container">
+                            <img src="/assets/education.png" alt="education icon" class="icon"/>
+                            <h3>Education</h3>
+                             <p>Class X, Sophia Girls’ School Meerut <br>
+                                Class XII, Delhi Public School,GBN Noida <br>
+                                B.Tech in Data Science and Engineering, Manipal University Jaipur(Currently pursuing)</p>
+                
+            </div>
+            <div class="text-conatiner"></div>
+            <p> <br> <br>As a dedicated third-year Data Science and Engineering student, I bring a passion for innovation and a strong technical foundation in machine learning, data analytics, and software engineering. Known for my adaptability, analytical mindset, and collaborative spirit, I thrive in fast-paced environments where problem-solving and creativity are key. With hands-on experience in developing data-driven solutions, I am committed to continuous learning and growth, staying current with industry trends and emerging technologies. I am eager to contribute my skills and enthusiasm to projects that make a meaningful impact and drive forward-thinking solutions.</p>
+        </div>
+
+       </div>
+       <img src="/assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#certificates'"/>
+    </section>
+    <section id="skills">
+    <p class="section__text__p1"> Explore my</p>
+    <h1 class="title">Skills</h1>
+    <div class="skills-detail-container">
+    <div class="about-conatiners">
+        
+        <div class="details-container">
+            <h2 class="skills-sub-title"> Hard Skills</h2>
+            <div class="article-container">
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>HTML</h3>
+                        <p>Experienced</p>
+
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Experienced</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Basic</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Java</h3>
+                        <p>Intermediate</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Python</h3>
+                        <p>Experienced</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>SQL</h3>
+                        <p>Experienced</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>C</h3>
+                        <p>Basic</p>
+                        
+
+                    </div>
+                </article>
+            </div>
+        </div>
+
+
+        <div class="details-container">
+            <h2 class="skills-sub-title">Soft Skills</h2>
+            <div class="article-container">
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Communication skills</h3>
+                        <p>Experienced</p>
+
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Ability to work in a team</h3>
+                        <p>Intermediate</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Attention to detail</h3>
+                        <p>Intermediate</p>
+                        
+
+                    </div>
+                </article>
+                <article>
+                    <img src="/assets/checkmark.png" alt="experience icon" class="icon"/>
+                    <div>
+                        <h3>Leadership</h3>
+                        <p>Experienced</p>
+                        
+
+                    </div>
+    
+            </div>
+        </div> </div>
+    </div> </div>
+    <img src="/assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#certificates'"/>
+</section>
+<section id="contact">
+    <p class="section__text__p1">Get in Touch </p>
+        <h1 class="title"> Contact Me</h1>
+        <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+        <img src="/assets/email.png" alt="email icon" class="icon contact-icon email icon">
+        <p> <a href="https://www.linkedin.com/in/ananya-agarwal-543a76211">ananya.agarwal2004@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="/assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+            <p> <a href="">LinkedIn</a></p>
+            </div>
+    </div>
+ 
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container"> <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+
+            <li><a href="#skills">Skills</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <p> Copyright  &#169; 2024 Ananya Agarwal. All Rights Reserved </p>
+</footer>
+    <script src="../script.js"></script>
+</body>
+</html>
+
